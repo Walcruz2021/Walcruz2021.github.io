@@ -21,6 +21,9 @@ h2{
 	margin-top: 25px;
 }
 
+.img{
+		max-width: 100%;
+}
 
 .contenedor {
 	width: 90%;
@@ -85,7 +88,10 @@ header .categorias a.activo {
 text-align: justify;
 }
 .certif img{
-margin-top: 20px;
+	padding: 10px;
+	display: block;
+	margin: auto;
+
 }
 /* ------------------------- */
 /* Grid */
@@ -244,4 +250,14 @@ footer .creado-por a:hover {text-decoration: underline;}
 	header .barra-busqueda {
 		width: 100%;
 	}
+}
+
+/* PANTALLA CHICA */
+
+@media screen and (max-width: 700px) {
+.certif img{
+	display: block;
+	margin: auto;
+    width: 80%;
+}	
 }
