@@ -67,6 +67,7 @@ header .barra-busqueda {
 	font-size: 16px;
 }
 
+/* esta clase permitira que los elementos se acomoden de acuerdo al tamaño de la pantalla */
 header .categorias {
 	display: flex;
 	justify-content: center;
@@ -270,6 +271,7 @@ footer .creado-por a:hover {text-decoration: underline;}
 	margin: auto;
     width: 80%;
 }
+/* para que los elementos esten uno abajo de otro en pantalla chica  */
 .link{ 
 	display: flex; 
 	flex-direction: column;
