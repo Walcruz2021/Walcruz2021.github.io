@@ -179,10 +179,22 @@ text-align: justify;
 	top: -20px;
 }
 
-.link p{
+.link{
 	margin-top: 20px;
-    text-align: center;
 }
+
+.link a{
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.link li{
+	margin-top: 20px;
+    text-align: center;	
+}
+
+
 
 /* ------------------------- */
 /* Footer */
