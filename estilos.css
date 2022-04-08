@@ -97,8 +97,6 @@ text-align: justify;
 /* Grid */
 /* ------------------------- */
 
-
-
 .grid {
 	position: relative;
 	width: 100%;
@@ -271,5 +269,10 @@ footer .creado-por a:hover {text-decoration: underline;}
 	display: block;
 	margin: auto;
     width: 80%;
+}
+.link{ 
+	display: flex; 
+	flex-direction: column;
 }	
 }
+
