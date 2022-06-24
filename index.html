@@ -1,16 +1,20 @@
+const bootstrap = require('bootstrap')
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 	<link rel="stylesheet" href="estilos.css">
 	<title>Portfolio Walter Cruz</title>
 </head>
 <body>
-	
+
 	<div class="contenedor">
 		<header>
 			<div class="logo">
@@ -25,30 +29,30 @@
 	        #ReactJS #MongoDB #NodeJS #Express #Sequelize #Mongoose #Redux #Git #JQuery #Ajax son las tecnologías que utilice a lo largo de mis proyectos. #JavaScript #Assembler #Java # C #PHP son los lenguajes de programación que fui aprendiendo desde que me inserte en este mundo tecnológico, sin olvidarme por supuesto de # HTML y # CSS quienes me acompañaron en estos últimos meses
 		    </p>
             </div>
-           
+
 			<div class="certif">
             	<img src="img/CertificadoHenry.png" alt="certificado">
             </div>
-			
+
 			<h2>CERTIFICADOS DE CURSOS</h2>
 
 			<div class="link">
-				<li><a href="https://university.mongodb.com/course_completion/9a291c42-53aa-4b5a-95ad-3371696853eb?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing" target="_blank">MONGO DB</a></li>	    
+				<li><a href="https://university.mongodb.com/course_completion/9a291c42-53aa-4b5a-95ad-3371696853eb?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing" target="_blank">MONGO DB</a></li>
+			</div>
+
+
+			<div class="link">
+				<li><a href="https://university.mongodb.com/course_completion/0dc48dc4-b65c-4086-a12b-547cf7f3e19d?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing" target="_blank">MONGO DB - Diagnostic Thinking</a></li>
 			</div>
 
 			<div class="link">
-				<li><a href="https://university.mongodb.com/course_completion/0dc48dc4-b65c-4086-a12b-547cf7f3e19d?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing" target="_blank">MONGO DB - Diagnostic Thinking</a></li>	    
-			</div>
-			
-			<div class="link">
-				<li><a href="https://www.udemy.com/certificate/UC-008a5848-e4ef-423d-ad15-cfbc144f1910/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">DESARROLLO WEB HTML5-CSS3-JS-AJAX-PHP-MYSQL</a></li>	    
+				<li><a href="https://www.udemy.com/certificate/UC-008a5848-e4ef-423d-ad15-cfbc144f1910/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">DESARROLLO WEB HTML5-CSS3-JS-AJAX-PHP-MYSQL</a></li>
 			</div>
 
-			
 			<h2>LINKS DE LOS PROYECTOS PARA QUE LOS PUEDAS VISUALIZAR</h2>
-		
+
 			<div class="categorias">
-			<a href="https://festival-music.vercel.app/" target="_blank">* Music Festival</a>	
+			<a href="https://festival-music.vercel.app/" target="_blank">* Music Festival</a>
 			<a href="https://app-agenda.vercel.app/" target="_blank">* Agenda React</a>
 			<a href="https://blog-cafe-seven.vercel.app/" target="_blank">* Blog Cafe</a>
 			<a href="https://walcruz2021.github.io/AppMoviesPractica/" target="_blank">* AppMovies </a>
@@ -56,7 +60,7 @@
 			<a href="https://www.linkedin.com/posts/waltercruz1988_backend-frontend-php-ugcPost-6864657609203494912-oy09"/ target="_blank">* Ecommerce Motos (php) </a>
 			<a href="https://www.linkedin.com/posts/waltercruz1988_react-mongodb-primereact-ugcPost-6858749890034507776-NtUP"/ target="_blank">* AppRestaurant</a>
 			</div>
-	
+
 			<h2>Mis Proyectos</h2>
 
 			<div class="categorias" id="categorias">
@@ -68,7 +72,7 @@
 		</header>
 
 		<section class="grid" id="grid">
-			<div class="item" 
+			<div class="item"
 				 data-categoria="appmovies"
 				 data-etiquetas="ciudades autos carros calles"
 				 data-descripcion="Esta App ejecuta un request con la API themoriedb. Realiza un filtrado de 20 peliculas pero cuando se realiza una busqueda de una pelicula en particular la ejecuta en base a la API"
@@ -78,10 +82,10 @@
 				</div>
 			</div>
 
-			<div class="item" 
+			<div class="item"
 			data-categoria="appmovies"
 			data-etiquetas="ciudades paisajes carreteras"
-			data-descripcion="Aqui se visualiza el sector del detalle de la pelicula a ver. Como método de mejoramiento se le quiere insertar la posibilidad de filtrados por GENEROS, gráficos que represente el SCORE de cada pelicula,etc. 
+			data-descripcion="Aqui se visualiza el sector del detalle de la pelicula a ver. Como método de mejoramiento se le quiere insertar la posibilidad de filtrados por GENEROS, gráficos que represente el SCORE de cada pelicula,etc.
 			Se puede visualizar esta App en una tablet o celular ya que esta RESPONSIVE"
 	        >
 		    <div class="item-contenido">
@@ -92,15 +96,15 @@
 			<div class="item"
 				 data-categoria="apprestaurant"
 				 data-etiquetas="personas mujeres"
-				 data-descripcion="Es una app que permite al dueño del restaurant, bar, café, etc. gestionar y administrar su negocio. Ofrece un kit completo de herramientas para hacer crecer su negocio, administrar su calendario, ventas y clientes sin estrés, desde cualquier lugar 
+				 data-descripcion="Es una app que permite al dueño del restaurant, bar, café, etc. gestionar y administrar su negocio. Ofrece un kit completo de herramientas para hacer crecer su negocio, administrar su calendario, ventas y clientes sin estrés, desde cualquier lugar
 				 link:https://www.youtube.com/watch?v=_F54ug2DTDs"
-				
+
 			>
 				<div class="item-contenido">
 					<img src="img/appRest1.png" alt="">
 				</div>
 			</div>
-			
+
 			<div class="item"
 			data-categoria="apprestaurant"
 			data-etiquetas="personas mujeres"
@@ -160,7 +164,7 @@
 				<div class="item-contenido">
 					<img src="img/Todo1.png" alt="">
 				</div>
-			
+
 			</div>
 
 			<div class="item"
@@ -171,7 +175,7 @@
 		   <div class="item-contenido">
 			   <img src="img/Todo2.png" alt="">
 		   </div>
-	   
+
 	   </div>
 		</section>
 
@@ -202,15 +206,295 @@
 				</div>
 			</div>
 
-			<div class="creado-por">
+<section class="grid" id="grid">
+			<div class="item"
+				 data-categoria="appmovies"
+				 data-etiquetas="ciudades autos carros calles"
+				 data-descripcion="Esta App ejecuta un request con la API themoriedb. Realiza un filtrado de 20 peliculas pero cuando se realiza una busqueda de una pelicula en particular la ejecuta en base a la API"
+			>
+				<div class="item-contenido">
+					<img src="img/home1b.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+			data-categoria="appmovies"
+			data-etiquetas="ciudades paisajes carreteras"
+			data-descripcion="Aqui se visualiza el sector del detalle de la pelicula a ver. Como método de mejoramiento se le quiere insertar la posibilidad de filtrados por GENEROS, gráficos que represente el SCORE de cada pelicula,etc.
+			Se puede visualizar esta App en una tablet o celular ya que esta RESPONSIVE"
+	        >
+		    <div class="item-contenido">
+			   <img src="img/Details1b.png" alt="">
+		    </div>
+	         </div>
+
+			<div class="item"
+				 data-categoria="apprestaurant"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="Es una app que permite al dueño del restaurant, bar, café, etc. gestionar y administrar su negocio. Ofrece un kit completo de herramientas para hacer crecer su negocio, administrar su calendario, ventas y clientes sin estrés, desde cualquier lugar
+				 link:https://www.youtube.com/watch?v=_F54ug2DTDs"
+
+			>
+				<div class="item-contenido">
+					<img src="img/appRest1.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+			data-categoria="apprestaurant"
+			data-etiquetas="personas mujeres"
+			data-descripcion="Para el Loging y Resgistro de Usuario se utilizo la herramienta JSonWebToken"
+	        >
+		    <div class="item-contenido">
+			   <img src="img/appRest2.png" alt="">
+		    </div>
+	        </div>
+
+			<div class="item"
+			data-categoria="apprestaurant"
+			data-etiquetas="personas mujeres"
+			data-descripcion="Panel donde se realiza el pedido de Delivery. Esta App todavía está en etapa de perfección, queremos introducir la tecnología #SoketIO de manera de optimizar la comunicación del salón con la cocina"
+	        >
+		    <div class="item-contenido">
+			   <img src="img/appRest3.png" alt="">
+		    </div>
+	        </div>
+
+			<div class="item"
+				 data-categoria="apprestaurant"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="Tecnologías usadas:
+				 #React #MongoDB #PrimeReact #Mongoose #Express #JSonWebToken #Passport #GitFlow"
+			>
+				<div class="item-contenido">
+					<img src="img/appRest4.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="apprestaurant"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="Ofrece un kit completo de herramientas para hacer crecer su negocio, administrar su calendario, ventas y clientes sin estrés, desde cualquier lugar"
+			>
+				<div class="item-contenido">
+					<img src="img/appRest5.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+			data-categoria="apprestaurant"
+			data-etiquetas="personas mujeres"
+			data-descripcion="Ofrece un kit completo de herramientas para hacer crecer su negocio, administrar su calendario, ventas y clientes sin estrés, desde cualquier lugar"
+	        >
+	    	   <div class="item-contenido">
+			   <img src="img/appRest6.png" alt="">
+		       </div>
+	        </div>
+
+			<div class="item"
+				 data-categoria="apptodo"
+				 data-etiquetas="agenda hojas plantas"
+				 data-descripcion="Esta App permite agendar tareas a realizar. Con el tiempo se le quiere seguir agregando funcionalidades como métodos de ordenamiento, filtrados,conexión con una base datos,etc"
+			>
+				<div class="item-contenido">
+					<img src="img/Todo1.png" alt="">
+				</div>
+
+			</div>
+
+			<div class="item"
+			data-categoria="apptodo"
+			data-etiquetas="agenda hojas plantas"
+			data-descripcion="permite diferenciar las tareas que estan por hacer con las que ya estan realizadas"
+	   >
+		   <div class="item-contenido">
+			   <img src="img/Todo2.png" alt="">
+		   </div>
+
+	   </div>
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="" width="400px" height="200px">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+
+            <h4 class="text-align=center">OTROS CURSOS</h4>
+        <section class="grid" id="grid">
+			<div class="item"
+				 data-categoria="appmovies"
+				 data-etiquetas="ciudades autos carros calles"
+				 data-descripcion="Esta App ejecuta un request con la API themoriedb. Realiza un filtrado de 20 peliculas pero cuando se realiza una busqueda de una pelicula en particular la ejecuta en base a la API"
+			>
+				<div class="item-contenido">
+					<img src="img/home1b.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+			data-categoria="appmovies"
+			data-etiquetas="ciudades paisajes carreteras"
+			data-descripcion="Aqui se visualiza el sector del detalle de la pelicula a ver. Como método de mejoramiento se le quiere insertar la posibilidad de filtrados por GENEROS, gráficos que represente el SCORE de cada pelicula,etc.
+			Se puede visualizar esta App en una tablet o celular ya que esta RESPONSIVE"
+	        >
+		    <div class="item-contenido">
+			   <img src="img/Details1b.png" alt="">
+		    </div>
+	         </div>
+
+			<div class="item"
+				 data-categoria="apprestaurant"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="Es una app que permite al dueño del restaurant, bar, café, etc. gestionar y administrar su negocio. Ofrece un kit completo de herramientas para hacer crecer su negocio, administrar su calendario, ventas y clientes sin estrés, desde cualquier lugar
+				 link:https://www.youtube.com/watch?v=_F54ug2DTDs"
+
+			>
+				<div class="item-contenido">
+					<img src="img/appRest1.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+			data-categoria="apprestaurant"
+			data-etiquetas="personas mujeres"
+			data-descripcion="Para el Loging y Resgistro de Usuario se utilizo la herramienta JSonWebToken"
+	        >
+		    <div class="item-contenido">
+			   <img src="img/appRest2.png" alt="">
+		    </div>
+	        </div>
+
+			<div class="item"
+			data-categoria="apprestaurant"
+			data-etiquetas="personas mujeres"
+			data-descripcion="Panel donde se realiza el pedido de Delivery. Esta App todavía está en etapa de perfección, queremos introducir la tecnología #SoketIO de manera de optimizar la comunicación del salón con la cocina"
+	        >
+		    <div class="item-contenido">
+			   <img src="img/appRest3.png" alt="">
+		    </div>
+	        </div>
+
+			<div class="item"
+				 data-categoria="apprestaurant"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="Tecnologías usadas:
+				 #React #MongoDB #PrimeReact #Mongoose #Express #JSonWebToken #Passport #GitFlow"
+			>
+				<div class="item-contenido">
+					<img src="img/appRest4.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="apprestaurant"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="Ofrece un kit completo de herramientas para hacer crecer su negocio, administrar su calendario, ventas y clientes sin estrés, desde cualquier lugar"
+			>
+				<div class="item-contenido">
+					<img src="img/appRest5.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+			data-categoria="apprestaurant"
+			data-etiquetas="personas mujeres"
+			data-descripcion="Ofrece un kit completo de herramientas para hacer crecer su negocio, administrar su calendario, ventas y clientes sin estrés, desde cualquier lugar"
+	        >
+	    	   <div class="item-contenido">
+			   <img src="img/appRest6.png" alt="">
+		       </div>
+	        </div>
+
+			<div class="item"
+				 data-categoria="apptodo"
+				 data-etiquetas="agenda hojas plantas"
+				 data-descripcion="Esta App permite agendar tareas a realizar. Con el tiempo se le quiere seguir agregando funcionalidades como métodos de ordenamiento, filtrados,conexión con una base datos,etc"
+			>
+				<div class="item-contenido">
+					<img src="img/Todo1.png" alt="">
+				</div>
+
+			</div>
+
+			<div class="item"
+			data-categoria="apptodo"
+			data-etiquetas="agenda hojas plantas"
+			data-descripcion="permite diferenciar las tareas que estan por hacer con las que ya estan realizadas"
+	   >
+		   <div class="item-contenido">
+			   <img src="img/Todo2.png" alt="">
+		   </div>
+
+	   </div>
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="img/Todo2.png" alt="" width="400px" height="200px">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>First slide label</h5>
+					<!-- <p>Some representative placeholder content for the first slide.</p> -->
+				  </div>
+				<img src="img/noCountry.jpg" class="d-block w-100" alt="...">
+				
+			  </div>
+			  <div class="carousel-item">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<!-- <p>Some representative placeholder content for the second slide.</p> -->
+				  </div>
+				<img src="img/jvs.png" class="d-block w-100" alt="...">
+				
+			  </div>
+			  <div class="carousel-item">
+				<img src="img/dom.png" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5>Third slide label</h5>
+				  <!-- <p>Some representative placeholder content for the third slide.</p> -->
+				</div>
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+
+			<!-- <div>
+	         <img src="img/dom.png" alt="certifDom">
+            </div>
+
+            <div>
+	          <img src="img/jvs.png" alt="certifDom">
+            </div> -->
+		    <div class="creado-por">
 				<p>Gracias por tu Visita</p>
 			</div>
-		</footer>
+	 </footer>
 
 	</div>
 
-
-	
 	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
 	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
 	<script src="main.js"></script>
